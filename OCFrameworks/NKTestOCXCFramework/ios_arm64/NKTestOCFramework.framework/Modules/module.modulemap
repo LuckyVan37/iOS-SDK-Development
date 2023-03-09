@@ -1,0 +1,6 @@
+framework module NKTestOCFramework {
+  umbrella header "NKTestOCFramework.h"
+
+  export *
+  module * { export * }
+}

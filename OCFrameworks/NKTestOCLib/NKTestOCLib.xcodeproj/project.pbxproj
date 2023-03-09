@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12A040129B9C285002CF6BB /* NKTestOCLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C12A03FE29B9C285002CF6BB /* NKTestOCLib.h */; };
+		C12A040929B9C40D002CF6BB /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A040829B9C40D002CF6BB /* Logger.m */; };
+		C12A040C29B9C45D002CF6BB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A040B29B9C45D002CF6BB /* Calculator.m */; };
+		C12A040F29B9C531002CF6BB /* NKRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A040E29B9C531002CF6BB /* NKRedView.m */; };
+		C12A041329B9C56F002CF6BB /* NKTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A041129B9C56F002CF6BB /* NKTempViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C12A03F929B9C285002CF6BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C12A040129B9C285002CF6BB /* NKTestOCLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C12A03FB29B9C285002CF6BB /* libNKTestOCLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNKTestOCLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12A03FE29B9C285002CF6BB /* NKTestOCLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKTestOCLib.h; sourceTree = "<group>"; };
+		C12A040729B9C40D002CF6BB /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		C12A040829B9C40D002CF6BB /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		C12A040A29B9C45D002CF6BB /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C12A040B29B9C45D002CF6BB /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		C12A040D29B9C531002CF6BB /* NKRedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKRedView.h; sourceTree = "<group>"; };
+		C12A040E29B9C531002CF6BB /* NKRedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKRedView.m; sourceTree = "<group>"; };
+		C12A041029B9C56F002CF6BB /* NKTempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKTempViewController.h; sourceTree = "<group>"; };
+		C12A041129B9C56F002CF6BB /* NKTempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKTempViewController.m; sourceTree = "<group>"; };
+		C12A041229B9C56F002CF6BB /* NKTempViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NKTempViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12A03F829B9C285002CF6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12A03F229B9C285002CF6BB = {
+			isa = PBXGroup;
+			children = (
+				C12A03FD29B9C285002CF6BB /* NKTestOCLib */,
+				C12A03FC29B9C285002CF6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12A03FC29B9C285002CF6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12A03FB29B9C285002CF6BB /* libNKTestOCLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12A03FD29B9C285002CF6BB /* NKTestOCLib */ = {
+			isa = PBXGroup;
+			children = (
+				C12A03FE29B9C285002CF6BB /* NKTestOCLib.h */,
+				C12A040729B9C40D002CF6BB /* Logger.h */,
+				C12A040829B9C40D002CF6BB /* Logger.m */,
+				C12A040A29B9C45D002CF6BB /* Calculator.h */,
+				C12A040B29B9C45D002CF6BB /* Calculator.m */,
+				C12A040D29B9C531002CF6BB /* NKRedView.h */,
+				C12A040E29B9C531002CF6BB /* NKRedView.m */,
+				C12A041029B9C56F002CF6BB /* NKTempViewController.h */,
+				C12A041129B9C56F002CF6BB /* NKTempViewController.m */,
+				C12A041229B9C56F002CF6BB /* NKTempViewController.xib */,
+			);
+			path = NKTestOCLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C12A041429B9C752002CF6BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C12A03FA29B9C285002CF6BB /* NKTestOCLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12A040429B9C285002CF6BB /* Build configuration list for PBXNativeTarget "NKTestOCLib" */;
+			buildPhases = (
+				C12A041429B9C752002CF6BB /* Headers */,
+				C12A03F729B9C285002CF6BB /* Sources */,
+				C12A03F829B9C285002CF6BB /* Frameworks */,
+				C12A03F929B9C285002CF6BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKTestOCLib;
+			productName = NKTestOCLib;
+			productReference = C12A03FB29B9C285002CF6BB /* libNKTestOCLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12A03F329B9C285002CF6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C12A03FA29B9C285002CF6BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C12A03F629B9C285002CF6BB /* Build configuration list for PBXProject "NKTestOCLib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12A03F229B9C285002CF6BB;
+			productRefGroup = C12A03F229B9C285002CF6BB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12A03FA29B9C285002CF6BB /* NKTestOCLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12A03F729B9C285002CF6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A040929B9C40D002CF6BB /* Logger.m in Sources */,
+				C12A040C29B9C45D002CF6BB /* Calculator.m in Sources */,
+				C12A040F29B9C531002CF6BB /* NKRedView.m in Sources */,
+				C12A041329B9C56F002CF6BB /* NKTempViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C12A040229B9C285002CF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C12A040329B9C285002CF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12A040529B9C285002CF6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDB557VKD9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12A040629B9C285002CF6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BDB557VKD9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12A03F629B9C285002CF6BB /* Build configuration list for PBXProject "NKTestOCLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A040229B9C285002CF6BB /* Debug */,
+				C12A040329B9C285002CF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12A040429B9C285002CF6BB /* Build configuration list for PBXNativeTarget "NKTestOCLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A040529B9C285002CF6BB /* Debug */,
+				C12A040629B9C285002CF6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12A03F329B9C285002CF6BB /* Project object */;
+}
